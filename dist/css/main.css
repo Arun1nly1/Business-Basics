@@ -1,0 +1,175 @@
+.btn {
+  padding: 1rem;
+  background: linear-gradient(#7b13de, #0bebfc);
+  color: #fff; }
+  .btn:hover {
+    background: red; }
+
+.current {
+  color: #8622d9; }
+
+.down {
+  border: solid #0bebfc;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 3px; }
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg); }
+
+.fa-star {
+  color: #8622d9; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Sora', sans-serif;
+  list-style: 1.6;
+  background-color: #fff; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+h2 {
+  margin: 1rem 0; }
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 100px; }
+  #navbar img {
+    height: 100px;
+    width: 100px; }
+  #navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    #navbar ul li {
+      padding: 0 1rem; }
+      #navbar ul li a {
+        color: #333;
+        font-weight: bold; }
+        #navbar ul li a object:hover {
+          transition: transform .5s ease;
+          transform: scale(1.3); }
+        #navbar ul li a.current {
+          color: #8622d9; }
+
+#main-content {
+  padding: 1rem;
+  margin: 2rem 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
+  #main-content .rating {
+    align-items: center; }
+    #main-content .rating h1 {
+      font-size: 4rem;
+      color: #8622d9; }
+    #main-content .rating #rate-review {
+      font-size: .8rem; }
+  #main-content .info-container {
+    margin: 2rem 2rem;
+    padding: 1rem;
+    line-height: 1.6; }
+    #main-content .info-container .about {
+      padding: 1rem; }
+      #main-content .info-container .about p {
+        margin-top: 2rem; }
+    #main-content .info-container .what-get ul, #main-content .info-container .what-learnt ul, #main-content .info-container .say ul {
+      margin-top: 1.5rem; }
+    #main-content .info-container .say {
+      margin-top: 2rem; }
+    #main-content .info-container .opinion {
+      width: 90%;
+      height: 400px; }
+      #main-content .info-container .opinion .opinion-1 {
+        display: flex;
+        background-color: #0bebfc;
+        height: 60%; }
+        #main-content .info-container .opinion .opinion-1 img {
+          align-self: center;
+          height: 200px;
+          width: 400px;
+          border-radius: 50%;
+          padding: 1rem; }
+        #main-content .info-container .opinion .opinion-1 p {
+          align-self: center;
+          padding: 1rem; }
+    #main-content .info-container .end-line {
+      font-size: 3rem;
+      text-align: center; }
+  #main-content .subscribe-query {
+    margin-left: 2rem;
+    padding: 1rem; }
+    #main-content .subscribe-query .reward {
+      display: flex;
+      margin-bottom: 2rem; }
+      #main-content .subscribe-query .reward img {
+        padding: 1rem; }
+
+.faq {
+  padding: 1rem;
+  margin: 7rem 0;
+  background-color: #101010; }
+  .faq .container {
+    margin: 2rem 8rem;
+    width: 50%; }
+  .faq h2 {
+    color: #0bebfc;
+    font-size: 3rem; }
+  .faq p {
+    color: #f4f4f4;
+    padding: 1rem;
+    border-top: 1px solid #33154c; }
+    .faq p:last-child {
+      border-bottom: 1px solid #33154c; }
+
+footer .social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  footer .social img {
+    width: 100px; }
+  footer .social h3 {
+    padding: 1rem;
+    color: #8622d9; }
+  footer .social ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: center;
+    color: #fff; }
+    footer .social ul li {
+      padding: 0.5rem;
+      margin-left: 1rem;
+      border: 1px solid #8622d9;
+      border-radius: 50%;
+      background-color: #8622d9; }
+
+footer .footer-items {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start; }
+  footer .footer-items li {
+    padding: .5rem;
+    line-height: 1; }
+    footer .footer-items li a {
+      color: #3f3f48; }
+
+footer .copyright {
+  margin-top: 5rem; }
+  footer .copyright p {
+    font-size: 0.8rem; }
+    footer .copyright p:first-child {
+      text-align: right; }

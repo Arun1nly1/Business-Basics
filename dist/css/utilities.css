@@ -1,0 +1,25 @@
+.btn {
+  padding: 1rem;
+  background: linear-gradient(#7b13de, #0bebfc);
+  color: #fff; }
+  .btn:hover {
+    background: red; }
+
+.current {
+  color: #8622d9; }
+
+.down {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px; }
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg); }
+
+.arrow-box {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 0 solid black; }
